@@ -1,0 +1,27 @@
+/* NestedPopup.css */
+.nested-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 2000px rgba(0, 0, 0, 1);
+    color:black;
+    border-radius: 30px;
+  }
+  
+  .nested-popup-inner {
+    text-align: center;
+  }
+  
+  .nested-popup button {
+    background-color: aliceblue;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  

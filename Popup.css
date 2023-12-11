@@ -1,0 +1,56 @@
+/* Popup.css */
+.popup {
+    position: fixed;
+    top: 35%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    background-color: #e8e8e8;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    height: 600px;
+    width: 500px;
+    color:white;
+  }
+  
+  .popup-inner {
+    text-align: center;
+  }
+  
+  .popup button {
+    background-color: #ffffff;
+    color: green;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 30px;
+  }
+  
+  .popup-inner {
+    /* Existing styles */
+    overflow-y: auto; /* Add this line to enable vertical scrollbar when content overflows */
+    max-height: 600px; /* Set a fixed height for the content area */
+
+  }
+
+  .green{
+    background-color: rgb(46, 182, 62);
+    border-radius: 30px;
+    height:300px;
+    /* width:600px; */
+  }
+  
+  .searchbar input{
+  width:450px;  
+  height:30px;
+  border-radius: 30px;
+  background-color: rgb(75, 166, 87);
+  border-color: rgb(255, 255, 255);
+  color: white;
+  }
+
+  .vspace{
+    height:10px;
+  }
